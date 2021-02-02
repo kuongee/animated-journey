@@ -77,6 +77,42 @@ const Layout = ({ location, title, children }) => {
           {title}
         </Link>
       </h2>
+      <h3
+        style={{
+          marginBottom: 0,
+          marginTop: 30,
+          fontFamily: `Montserrat, sans-serif`,
+          textDecoration: `underline`,
+        }}
+      >
+        <Link
+          style={{
+            boxShadow: `none`,
+            color: `inherit`,
+          }}
+          to={`https://www.notion.so/48ecf316fc054a269ad762378f20fe51`}
+        >
+          About
+        </Link>
+      </h3>
+      <h3
+        style={{
+          marginBottom: 0,
+          marginTop: 10,
+          fontFamily: `Montserrat, sans-serif`,
+          textDecoration: `underline`,
+        }}
+      >
+        <Link
+          style={{
+            boxShadow: `none`,
+            color: `inherit`,
+          }}
+          to={`https://github.com/kuongee`}
+        >
+          Github
+        </Link>
+      </h3>
     </>
   )
 

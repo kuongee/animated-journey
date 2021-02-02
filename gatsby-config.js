@@ -1,16 +1,13 @@
 module.exports = {
   pathPrefix: "/animated-journey",
   siteMetadata: {
-    title: `Leonids`,
+    title: `Animated Journey`,
     author: {
       name: `@ry_zou`,
       summary: `web dev`,
     },
     description: `A simple, fixed sidebar two columns Gatsby.js blog starter.`,
-    siteUrl: `https://renyuanz.github.io/leonids`,
-    social: {
-      twitter: `ry_zou`,
-    },
+    siteUrl: `https://kuongee.github.io/animated-journey/`,
     defaultImage: "images/bg.jpeg",
   },
   plugins: [
